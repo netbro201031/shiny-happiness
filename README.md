@@ -47,6 +47,11 @@ and enter this line in to editor
 ```
 after that press ctrl+x > y > Enter
 
+07.SSL Renew After Expire 
+```
+apt-get update -y; apt-get upgrade -y; sudo wget https://raw.githubusercontent.com/netbro201031/shiny-happiness/main/renew-ssl.sh; chmod 777 renew-ssl.sh; ./renew-ssl.sh
+```
+
 # Features
 01.Firewall Settings
 
