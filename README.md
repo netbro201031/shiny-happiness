@@ -22,9 +22,9 @@ apt-get update -y; apt-get upgrade -y; sudo wget https://raw.githubusercontent.c
 ```
 apt-get update -y; apt-get upgrade -y; sudo wget https://raw.githubusercontent.com/netbro201031/shiny-happiness/main/pubvps; chmod 777 pubvps; ./pubvps
 ```
-# Setup Automatic Reboot @ Every day 5 a.m.
+# Setup Automatic Reboot @ Every day 12 p.m.
 ```
-(crontab -l && echo "0 5 * * * /sbin/reboot") | crontab -
+(crontab -l && echo "0 12 * * * /sbin/reboot") | crontab -
 ```
 # Check current expiry date
 ```
