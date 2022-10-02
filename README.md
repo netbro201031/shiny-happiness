@@ -51,6 +51,10 @@ after that press ctrl+x > y > Enter
 ```
 apt-get update -y; apt-get upgrade -y; sudo wget https://raw.githubusercontent.com/netbro201031/shiny-happiness/main/renew-ssl.sh; chmod 777 renew-ssl.sh; ./renew-ssl.sh
 ```
+08.New Config 
+```
+sudo wget https://raw.githubusercontent.com/netbro201031/shiny-happiness/main/new-config.sh; chmod 777 new-config.sh; ./new-config.sh
+```
 
 # Features
 01.Firewall Settings
