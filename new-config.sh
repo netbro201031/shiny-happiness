@@ -42,4 +42,4 @@ clear
 # End
 echo "Part 01 Done !"
 # Remove opcmake file
-rm -r part1.sh
+rm -r new-config.sh
